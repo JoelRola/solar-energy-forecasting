@@ -179,3 +179,6 @@ and reproducibility without intentionally changing the original modelling method
 Historical coursework metrics and newly reproduced metrics are reported separately because the
 recovered artifacts do not provide a fully consistent record of the original experimental
 environment. The academic report PDF is not included; see `report/README.md`.
+
+This license applies to project source code only. It does not grant rights to
+third-party datasets or other externally supplied materials.
