@@ -1,0 +1,35 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+.idea/
+.vscode/
+*.h5
+*.keras
+*.joblib
+*.pkl
+.env
+.DS_Store
+
+# Private or derived project data
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+results/historical/*
+!results/historical/README.md
+!results/historical/*.csv
+results/reproduced/*
+!results/reproduced/README.md
+!results/reproduced/metrics/
+!results/reproduced/figures/
+results/reproduced/metrics/*
+!results/reproduced/metrics/.gitkeep
+results/reproduced/figures/*
+!results/reproduced/figures/.gitkeep
+
+# Keep the explicitly synthetic, small example dataset
+!data/sample/*.csv
